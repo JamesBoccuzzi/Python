@@ -1,6 +1,6 @@
 
 def maximum(numbers):
-    large = 0
+    large = numbers[0]
     for number in numbers:
         if number > large:
             large = number
@@ -20,4 +20,4 @@ def average(numbers):
         total_num = total_num + 1
     return(sum / total_num)
 
-print(average([5,10,15]))
+print(maximum([-9,-4,-6,-8]))
