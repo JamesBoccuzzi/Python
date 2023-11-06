@@ -15,7 +15,7 @@ for value in c.values():
 for key, value in c.items():
     print(key, " ", value)
     
-c['vito'] = 'gentile'
+c['john'] = 'doe'
 
 for key, value in c.items():
     print(key, " ", value)
