@@ -13,8 +13,7 @@ fruitBag = {'banana' : 5,
             'pommogranite' : 3}
 
 for fruit, quantity in fruitBag.items():
-    quantity = quantity * fruitPrices[fruit]
-    total = total + quantity
-    print(quantity)
+    total = quantity * fruitPrices[fruit] + total
+    print(total)
 print('The total price is', total)
     
